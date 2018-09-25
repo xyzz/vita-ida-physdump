@@ -12,7 +12,7 @@ from collections import defaultdict
 VITA_MAGIC = "18F09FE518F09FE518F09FE518F09FE518F09FE504F09FE514F09FE514F09FE5".decode("hex")
 
 dump_start = 0x40200000
-dump_end = 0x5FD00000
+dump_end = 0x60000000
 ttbr0 = dump_start + 0x8000
 ttbr1 = dump_start + 0xC000
 ttbcr_n = 2

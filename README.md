@@ -12,7 +12,7 @@ Place [db.yml](https://raw.githubusercontent.com/vitasdk/vita-headers/master/db.
 
 Obtain a physical memory dump from a Vita running 3.60 (other versions are not supported).
 
-You should dump physical addresses in the [0x40200000; 0x5FD00000) range. ([wiki](https://wiki.henkaku.xyz/vita/Physical_Memory))
+You should dump physical addresses in the [0x40200000; 0x60000000) range. ([wiki](https://wiki.henkaku.xyz/vita/Physical_Memory))
 
 When opening a physical dump, this loader should be selected by default. You don't need to do anything, just click "OK".
 
